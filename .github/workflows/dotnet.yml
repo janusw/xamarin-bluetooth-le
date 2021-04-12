@@ -32,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: nupkg
-        path: *Plugin.BLE*.nupkg
+        path: ./*Plugin.BLE*.nupkg
